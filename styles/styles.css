@@ -480,6 +480,7 @@ ul {
 .footer .conteiner {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 /* Адреса */
@@ -565,8 +566,9 @@ ul {
 
 /* Підписка на розсилку */
 .mailing-list {
-  display: block;
-  align-items: flex-start;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
 }
 
 .mailing-list-title {
@@ -728,7 +730,7 @@ ul {
 }
 
 .form-label {
-  display: inline-block;
+  display: block;
   position: relative;
   margin: 0;
   font-size: 12px;
@@ -779,6 +781,7 @@ ul {
 }
 
 .textarea {
+  display: block;
   padding: 12px 16px;
   margin-top: 4px;
   margin-bottom: 20px;
@@ -804,9 +807,9 @@ ul {
 }
 
 .checkbox-label {
-  display: inline-block;
+  display: flex;
   position: relative;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
   margin-bottom: 30px;
   
@@ -879,6 +882,7 @@ ul {
 }
 
 .contract {
+  margin-left: 3px;
   color: var(--secondery-color);
   font-size: 14px;
   line-height: 1.71;
@@ -965,6 +969,8 @@ ul {
     0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+/* приклади робіт  */
 
 .projects {
   display: flex;
